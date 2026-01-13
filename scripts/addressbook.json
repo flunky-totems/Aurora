@@ -1,0 +1,12 @@
+{
+  "network": "base-sepolia",
+  "addresses": {
+    "zero": "0x0000000000000000000000000000000000000000",
+    "burn": "0x000000000000000000000000000000000000dEaD",
+    "exampleEOA": "0x1111111111111111111111111111111111111111",
+    "exampleContract": "0x2222222222222222222222222222222222222222"
+  },
+  "notes": {
+    "warning": "Placeholders only. Do not add private keys. Keep probes read-only."
+  }
+}
