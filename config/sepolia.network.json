@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "RPC + explorer + chainId configuration used by local scripts.",
+  "network": {
+    "key": "base-sepolia",
+    "name": "Base Sepolia",
+    "chainId": 84532,
+    "rpc": {
+      "default": "https://sepolia.base.org",
+      "fallbacks": ["https://base-sepolia-rpc.publicnode.com"]
+    },
+    "explorer": {
+      "name": "BaseScan Sepolia",
+      "url": "https://sepolia.basescan.org"
+    }
+  },
+  "defaults": {
+    "rpcTimeoutMs": 10000,
+    "retries": 2
+  }
+}
