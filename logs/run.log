@@ -1,0 +1,17 @@
+[INFO] Aurora validation run
+[INFO] Network: base-sepolia
+[INFO] ChainId: 84532
+[INFO] RPC: https://sepolia.base.org
+[INFO] Explorer: https://sepolia.basescan.org
+
+[CHECK] RPC Connectivity: OK
+[CHECK] Latest Block: 12877421
+[CHECK] Block Recheck Consistency: OK
+[CHECK] Explorer Base URL: OK
+
+[PROBE] Balance(exampleEOA): 0
+[PROBE] Code(exampleContract): 0x
+[PROBE] Code(zero): 0x
+[PROBE] Code(burn): 0x
+
+[STATUS] PASS
