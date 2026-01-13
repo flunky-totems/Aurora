@@ -1,0 +1,24 @@
+{
+  "tool": "aurora",
+  "generatedAt": "2026-01-13T10:40:00.000Z",
+  "status": "PASS",
+  "network": {
+    "key": "base-sepolia",
+    "chainId": 84532,
+    "rpc": "https://sepolia.base.org",
+    "explorer": "https://sepolia.basescan.org"
+  },
+  "checks": {
+    "RPC Connectivity": "OK",
+    "Latest Block": 12877421,
+    "Block Recheck Consistency": "OK",
+    "Explorer Base URL": "OK"
+  },
+  "probes": {
+    "Balance(exampleEOA)": "0",
+    "Code(exampleContract)": "0x",
+    "Code(zero)": "0x",
+    "Code(burn)": "0x"
+  },
+  "sourceLog": "logs/run.log"
+}
