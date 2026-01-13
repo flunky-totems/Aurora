@@ -41,25 +41,25 @@ All outputs are designed to be independently verifiable on Basescan.
 
 - contracts/  
   Solidity contracts deployed to Base Sepolia for testnet validation:
-  - BaseTimeLockVault.sol — a timelock vault contract that allows users to deposit ETH and lock it until a specified unlock timestamp
+  - BaseTimeLockVault.sol - a timelock vault contract that allows users to deposit ETH and lock it until a specified unlock timestamp
 
 
 - config/  
-  - sepolia.network.json — RPC + explorer + chainId configuration used by local scripts
+  - sepolia.network.json - RPC + explorer + chainId configuration used by local scripts
 
 - docs/  
-  - quickstart.md — practical notes for running Aurora locally and interpreting output
-  - aa-primer.md — short overview of Base account abstraction concepts used in validation
+  - quickstart.md - practical notes for running Aurora locally and interpreting output
+  - aa-primer.md - short overview of Base account abstraction concepts used in validation
 
 - scripts/  
-  - addressbook.json — saved addresses used during repeatable inspections
-  - export-report.ts — converts console-style output into a small JSON report (optional helper)
+  - addressbook.json - saved addresses used during repeatable inspections
+  - export-report.ts - converts console-style output into a small JSON report (optional helper)
 
 - reports/  
-  - latest.json — example output format for CI or manual review
+  - latest.json - example output format for CI or manual review
 
 - logs/  
-  - run.log — sample execution log captured from a validation run
+  - run.log - sample execution log captured from a validation run
 
 - LICENSE  
   MIT license text.
